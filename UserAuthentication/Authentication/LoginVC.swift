@@ -20,8 +20,10 @@ class LoginVC: UIViewController {
     }
     
     @IBAction func loginTapped(_ sender: Any) {
-        let homeView = HomeVC.instantiate()
-        self.navigationController?.pushViewController(homeView, animated: true)
+        AppUserDefaults.accessToken = true
+        let mainTabBarController = MainTabBarController.instantiate()
+        (UIApplication.shared.connectedScenes.first?.delegate as? SceneDelegate)?.changeRootViewController(mainTabBarController)
+
     }
-    
+        
 }

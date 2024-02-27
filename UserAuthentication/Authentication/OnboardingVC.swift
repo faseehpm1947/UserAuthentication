@@ -21,6 +21,10 @@ class OnboardingVC: UIViewController {
         // Do any additional setup after loading the view.
     }
     
+    override func viewDidAppear(_ animated: Bool) {
+        
+    }
+    
     @IBAction func loginTapped(_ sender: Any) {
         let loginView = LoginVC.instantiate()
         self.navigationController?.pushViewController(loginView, animated: true)

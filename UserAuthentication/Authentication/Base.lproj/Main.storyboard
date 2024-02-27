@@ -194,10 +194,10 @@
             </objects>
             <point key="canvasLocation" x="1568.7022900763359" y="-2.1126760563380285"/>
         </scene>
-        <!--Navigation Controller-->
+        <!--Onboarding Navigation Controller-->
         <scene sceneID="FQm-3y-zeq">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="T3J-pV-F0U" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="OnboardingNavigationController" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="T3J-pV-F0U" customClass="OnboardingNavigationController" customModule="UserAuthentication" customModuleProvider="target" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="NiY-xC-wbx">
                         <rect key="frame" x="0.0" y="59" width="393" height="44"/>
