@@ -84,10 +84,10 @@
 		A2BAD9282B8C89FC007E8A2B /* UserAuthentication */ = {
 			isa = PBXGroup;
 			children = (
+				A2BAD93D2B8C940A007E8A2B /* Applications */,
 				6575BFDD2B8E08490020BF8A /* HelperClasses */,
 				A2BAD9412B8C96ED007E8A2B /* Home */,
 				A2BAD93E2B8C9485007E8A2B /* Authentication */,
-				A2BAD93D2B8C940A007E8A2B /* Applications */,
 				A2BAD9322B8C89FD007E8A2B /* Assets.xcassets */,
 				A2BAD9342B8C89FD007E8A2B /* LaunchScreen.storyboard */,
 				A2BAD9372B8C89FD007E8A2B /* Info.plist */,
